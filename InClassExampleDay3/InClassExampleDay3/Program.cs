@@ -6,11 +6,11 @@ namespace InClassExampleDay3
     {
         static void Main(string[] args)
         {
-            //Declearing Variables
+            //Declearing Variables to be used in the program
             String firstName, lastName;
             double gpa;
 
-            //Output to get user information
+            //Output to get user information from console
             Console.WriteLine("Please enter your first name >>");
             firstName = Console.ReadLine();
 
@@ -23,7 +23,7 @@ namespace InClassExampleDay3
 
             gpa += 0.5; //gpa = gpa + 0.5 
 
-            //Output user information
+            //Output user information to console with two ways to output the information
             string output = "Hello " + firstName + " " + lastName + "! " + "we bosted your gpa to " + gpa.ToString("N3");
             Console.WriteLine(output);
 
