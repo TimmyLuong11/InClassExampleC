@@ -29,6 +29,7 @@ namespace InClassExampleDay3
 
             output = $"Hello { firstName} { lastName}! we bosted your gpa to {gpa.ToString("N3")}";
             Console.WriteLine(output);
+            Console.WriteLine("");
         }
     }
 }
